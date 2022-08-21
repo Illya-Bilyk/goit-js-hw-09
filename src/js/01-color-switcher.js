@@ -23,6 +23,7 @@ function onStartBtn() {
 }
 function onStopBtn() {
   clearInterval(colorId);
+  isChanging = false;
 }
 
 function getRandomHexColor() {
